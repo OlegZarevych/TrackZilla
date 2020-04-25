@@ -50,7 +50,7 @@ public class TzaController {
         return new ResponseEntity<List<Application>>(applicationList, HttpStatus.OK);
     }
 
-    @GetMapping("applications")
+    @GetMapping("/applications/{id}")
     public  ResponseEntity<Application> getApplication(@PathVariable("id") long id) {
         try
         {
