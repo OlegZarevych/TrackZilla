@@ -1,4 +1,4 @@
-package com.zarko.TrackZilla;
+package com.zarko.TrackZilla.web;
 
 import com.zarko.TrackZilla.service.ApplicationService;
 import com.zarko.TrackZilla.service.ReleaseService;

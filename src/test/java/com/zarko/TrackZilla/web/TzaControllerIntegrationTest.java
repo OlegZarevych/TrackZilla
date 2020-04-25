@@ -1,4 +1,4 @@
-package com.zarko.TrackZilla;
+package com.zarko.TrackZilla.web;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
