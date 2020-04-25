@@ -17,4 +17,4 @@ public class Release {
     private String releaseDate;
     private String description;
 
-    }
+}
