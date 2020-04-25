@@ -5,6 +5,8 @@ import javax.persistence.*;
 @Entity
 public class Release {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String releaseDate;
     private String description;
